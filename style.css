@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: rgb(59, 63, 77);
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0 10px;
+    border-left: 1px solid rgb(203, 218, 234);
+}
+
+nav a:hover {
+    background-color: rgb(203, 218, 234);
+    color: rgb(33, 37, 47);
+}
+
+footer {
+    background-color: rgb(59, 63, 77);
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 10px 0 10px;
+}
+
+footer a:hover {
+    background-color: rgb(203, 218, 234);
+    color: rgb(33, 37, 47);
+}
+
+.title {
+    padding: 32vh 30px 54vh 30px;
+}
+
+.title h1 {
+    font-size: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.title h2 {
+    margin: 0;
+    color: rgb(108, 108, 108);
+    padding-left: 6px;
+    text-align: center;
+}
+
+.about {
+    background-color: rgb(187, 198, 210);
+}
+
+#imageContainer {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 0;
+    padding-bottom: 120px;
+}
+
+#me {
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    border-radius: 200px;
+    top: -100px;
+    left: -100px;
+    height: 200px;
+}
+
+.about h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.about p {
+    display: block;
+    width: 800px;
+    margin: 0 auto 20px auto;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.three-col {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 30px;
+}
+
+.card {
+    width: 350px;
+    height: 380px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 15px 0;
+}
+
+.card ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    row-gap: 5px;
+    text-align: center;
+    padding: 0;
+}
+
+.card dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
+    padding: 0 20px
+}
+
+dd {
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 218, 234);
+    height: 90vh;
+}
+
+.contact h1 {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.contact p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    background-color: white;
+    padding: 40px 160px 40px 0;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right   ;
+    row-gap: 8px;
+    column-gap: 20px;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input {
+    height: 1.8rem;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+.contact hr {
+    border-width: 2px;
+    width: 300px;
+    margin-bottom: 30px;
+}
